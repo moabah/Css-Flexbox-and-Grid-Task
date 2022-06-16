@@ -6,6 +6,11 @@
 body{
     background-color: rgb(28, 3, 58);
 }
+header{
+    text-align: center;
+    background-color: #fff;
+   
+}
 main{
     display: grid;
     grid-template-areas: 
@@ -17,7 +22,7 @@ main{
     gap: 10px;
     width: 50%;
     height: 90vh;
-    margin: 70px;
+    margin: 100px;
 
 
 }

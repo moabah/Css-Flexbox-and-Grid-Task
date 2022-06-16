@@ -6,9 +6,10 @@
 
 body{
     background: #fff;
-    
    
-   
+}
+header{
+    text-align: center;
 }
 main{
     width: 1140px;  
