@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+
+
+body{
+    background: #fff;
+    
+   
+   
+}
+main{
+    width: 1140px;  
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    margin: -12px 0 0 -12px;
+   
+   
+
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+}
+
+.sedans p, .suvs p, .luxury p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.sedans h1, .suvs h1, .luxury h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+}
+button{
+    height: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 1px 15px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.sedansbtn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%) ;
+    
+}
+.sedansbtn:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+}
+
+.suvsbtn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%) ;
+    
+}
+.suvsbtn:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%) ;
+    color: hsl(0, 0%, 95%);
+}
+
+.luxurybtn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%) ;
+   
+}
+.luxurybtn:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%) ;
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 800px) {
+    main {
+      flex-direction: column;
+      width: 375px;
+    }
+  }
